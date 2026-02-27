@@ -1,0 +1,35 @@
+Guardrails Interaction Log
+========================================
+2026-02-27T09:30:40.338025 | User: let me have a conception
+2026-02-27T09:30:40.338025 | Bot: I couldn't find any information about that in my movie database. Would you like to ask about another film?
+
+2026-02-27T09:31:09.968572 | User: tell me about the Inception
+2026-02-27T09:31:09.968572 | Bot: The movies you asked about are Inception, The I Inside, and Insomnia. Here is some information about each of them: 
+Title: Inception
+Director: Christopher Nolan
+Year: 2010
+Genres: Action, Thriller, Science Fiction, Mystery, Adventure
+Keywords: loss of lover, dream, kidnapping, sleep, subconsciousness, heist, redemption, female hero
+Cast: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy, Ken Watanabe
+Overview: Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: "inception", the implantation of another person's idea into a target's subconscious. 
+Title: The I Inside
+Director: Roland Suso Richter
+Year: 2004
+Genres: Thriller, Mystery, Science Fiction
+Keywords: infidelity, amnesia, paranoia, nightmare, time, puzzle, murder, suspense, memory, hospital, doctor, fear, guilt, discovery, loop
+Cast: Ryan Phillippe, Sarah Polley, Piper Perabo, Robert Sean Leonard, Stephen Rea
+Overview: Simon Cable wakes
+
+2026-02-27T09:32:30.844829 | User: the movie Crush
+2026-02-27T09:32:30.844829 | Bot: I found some information about the movie 'Crush' for you. Is there anything else you would like to know?
+
+2026-02-27T09:32:55.454938 | User: talk to me about the movie till
+2026-02-27T09:32:55.454938 | Bot: There are a few movies with 'till' in the title. Here are three possibilities:
+1. We Need to Talk About Kevin (2011), directed by Lynne Ramsay
+2. Thirteen Conversations About One Thing (2001), directed by Jill Sprecher
+3. Walking and Talking (1996), directed by Nicole Holofcener
+Which one would you like more information about?
+
+2026-02-27T09:33:20.462919 | User: help me about the movie
+2026-02-27T09:33:20.462919 | Bot: Here are a few movie suggestions for you based on your request: Epic Movie, Reign Over Me, and Analyze This. Would you like to know more about any of these movies?
+

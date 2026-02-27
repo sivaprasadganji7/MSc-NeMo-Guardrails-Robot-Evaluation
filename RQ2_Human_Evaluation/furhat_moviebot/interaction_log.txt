@@ -1,0 +1,8 @@
+Movie Companion Interaction Log
+========================================
+2026-02-26T14:44:01.718092 | User: tell me about some movie facts
+2026-02-26T14:44:01.718092 | Bot: Sure, did you know that the highest grossing film of all time is Avatar, with a worldwide box office of over $2.8 billion?
+
+2026-02-26T14:44:14.911983 | User: yes
+2026-02-26T14:44:14.911983 | Bot: I'm sorry, I am not sure what you are asking about. Is there something specific about movies that you would like to know?
+

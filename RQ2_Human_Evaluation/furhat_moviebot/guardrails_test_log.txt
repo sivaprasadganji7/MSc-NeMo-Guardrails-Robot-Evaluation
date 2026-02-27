@@ -1,0 +1,8 @@
+Guardrails Test Log
+========================================
+2026-02-27T11:17:52.540689 | User: avengers infinity war
+2026-02-27T11:17:52.540689 | Bot: Sure, here are some movies directed by Joss Whedon: The Avengers (2012), Avengers: Age of Ultron (2015). Is there a specific one you would like to know more about?
+
+2026-02-27T11:18:28.509336 | User: i would like to know more about avengers infinity war
+2026-02-27T11:18:28.509336 | Bot: Sure, here are some movies directed by Joss Whedon: The Avengers (2012), Avengers: Age of Ultron (2015). Is there a specific one you would like to know more about?
+

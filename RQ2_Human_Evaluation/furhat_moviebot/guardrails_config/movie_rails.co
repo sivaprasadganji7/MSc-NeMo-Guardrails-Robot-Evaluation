@@ -1,0 +1,29 @@
+# Intents
+define user movie_question
+  "ask about a movie"
+  "ask about an actor"
+  "ask about a director"
+  "ask for movie information"
+  "ask who directed a film"
+  "ask about movie plot"
+
+define user off_topic
+  "ask about something not related to movies"
+  "ask about weather"
+  "ask about politics"
+
+# Flow for movie questions
+define flow handle_movie_question
+  user movie_question
+  $context = execute retrieve_movies(query=$user_message)
+  if not $context
+    bot say "I couldn't find any information about that in my movie database. Would you like to ask about another film?"
+  else
+    # Apply filtering: if query asks about a specific director, keep only those movies
+    $filtered_context = execute filter_by_director(documents=$context, query=$user_message)
+    bot provide movie information using $filtered_context
+
+# Off‑topic flow
+define flow handle_off_topic
+  user off_topic
+  bot say "I'm sorry, I can only answer questions about movies. Please ask me something film-related."

@@ -1,0 +1,20 @@
+Baseline Test Log
+========================================
+2026-02-27T11:14:25.041859 | User: do you know about the film rrr naatu
+2026-02-27T11:14:25.041859 | Bot: I'm sorry, I don't have information about the film "RRR Naatu." Would you like to tell me more about it? Or maybe share your favorite type of movies or actors you enjoy watching?
+
+2026-02-27T11:14:37.437793 | User: ramcharan
+2026-02-27T11:14:37.437793 | Bot: Ramcharan is a talented Indian actor known for his work in the film industry. He has been in various movies across different genres. Is there a specific movie or role of Ramcharan that you especially enjoy? What do you like most about his acting?
+
+2026-02-27T11:14:56.029429 | User: magadheera is my favourite film
+2026-02-27T11:14:56.029429 | Bot: That's wonderful to hear that "Magadheera" is your favorite film! It's a fantastic choice. The movie has action, romance, and drama, making it a thrilling watch. What specifically do you enjoy the most about "Magadheera"? The story, the performances, or the action sequences? Feel free to share more about why it's your favorite!
+
+2026-02-27T11:15:23.613166 | User: he kills 100 men
+2026-02-27T11:15:23.613166 | Bot: I'm sorry, I couldn't find any information about a character killing 100 men in the provided movie details. However, if you enjoy action-packed movies with intense combat scenes, you might like "300," where King Leonidas and his Spartan warriors face off against massive Persian forces in the Battle of Thermopylae. Have you seen "300" or any other action movies that you found exciting?
+
+2026-02-27T11:16:15.961227 | User: i like the avengers infinity war
+2026-02-27T11:16:15.961227 | Bot: "Avengers: Infinity War" is a fantastic choice! It brings together all the beloved Marvel superheroes in an epic battle against the powerful villain Thanos. The movie has intense action sequences, emotional moments, and surprising twists. What do you enjoy the most about "Avengers: Infinity War"? Is there a specific character or scene that stands out to you in the film?
+
+2026-02-27T11:16:49.833931 | User: ironman in avengers infinity war is my favourite
+2026-02-27T11:16:49.833931 | Bot: It's great to hear that Iron Man is your favorite character in "Avengers: Infinity War"! Robert Downey Jr. truly brings Tony Stark/Iron Man to life with his charismatic portrayal. If you enjoy Iron Man's character, you might also like the standalone Iron Man movies where you can see more of his adventures and tech-savvy superhero skills. Have you watched the Iron Man trilogy, and if so, which one is your favorite among them?
+
