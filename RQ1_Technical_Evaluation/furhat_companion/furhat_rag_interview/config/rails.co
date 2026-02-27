@@ -1,0 +1,45 @@
+# -------------------------
+# INPUT SAFETY CHECK
+# -------------------------
+# -------------------------
+# INPUT SAFETY CHECK
+# -------------------------
+define flow self_check_input
+  $msg = $user_message.lower()
+
+  if "password" in $msg or "credit card" in $msg or "social security" in $msg
+    bot refuse_sensitive
+    stop
+
+  if "how to kill" in $msg or "make a bomb" in $msg or "hurt someone" in $msg
+    bot refuse_harm
+    stop
+
+  if "fruit" in $msg or "apple" in $msg or "banana" in $msg or "orange" in $msg
+    bot refuse_fruit
+    stop
+
+
+# -------------------------
+# OUTPUT CHECK
+# -------------------------
+define flow self_check_output
+  $out = $bot_message
+
+  # Keep responses concise for a companion robot
+  if len($out) > 700
+    bot too_long
+    stop
+
+
+# -------------------------
+# REFUSAL TEMPLATES
+# -------------------------
+define bot refuse_sensitive
+  "Let’s avoid sharing or requesting sensitive personal information. You can ask me something else."
+
+define bot refuse_harm
+  "I can’t help with harming people or unsafe activities, but I can talk about this topic in a safer way."
+
+define bot too_long
+  "Let me keep things short. What would you like to talk about next?"
