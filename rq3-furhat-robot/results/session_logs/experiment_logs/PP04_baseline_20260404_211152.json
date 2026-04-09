@@ -1,0 +1,167 @@
+{
+  "participant_id": "P04",
+  "condition": "baseline",
+  "session_start": "2026-03-17T21:11:52.797600",
+  "session_end": "2026-03-17T21:18:55.819993",
+  "duration_seconds": 423.0,
+  "total_turns": 11,
+  "guardrail_triggers": 0,
+  "avg_response_time_ms": 5041.7,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-17T21:12:07.500133",
+      "elapsed_seconds": 14.7,
+      "user_input": "hi what's your favorite movie",
+      "bot_response": "I don\u2019t have a favorite movie, but I can tell you about a few interesting ones! For instance, \"Aloha\" is a mix of drama, comedy, and romance featuring Bradley Cooper and Emma Stone. It's about love and reconnection in Hawaii. Do you have a favorite movie or genre you enjoy?",
+      "response_time_ms": 4120,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-17T21:12:29.828581",
+      "elapsed_seconds": 37.0,
+      "user_input": "um",
+      "bot_response": "It seems like you might be looking for something specific! If you have any questions about movies or if there's a particular one you'd like to chat about, just let me know! Are there any genres or actors you're especially fond of?",
+      "response_time_ms": 3187,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-17T21:12:50.382957",
+      "elapsed_seconds": 57.6,
+      "user_input": "um actually I love how to try and drag in",
+      "bot_response": "It sounds like you\u2019re curious about \"I Love Your Work!\" It's a drama and mystery directed by Adam Goldberg, focusing on a fictional movie star named Gray Evans who faces the pressures of fame, a crumbling marriage, and his obsession with a young film student. It\u2019s quite a dark and psychological take on fame and personal identity.\n\nWhat about this film intrigues you? Are you drawn to dramas like this, or do you prefer something lighter?",
+      "response_time_ms": 3233,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-17T21:13:29.609960",
+      "elapsed_seconds": 96.8,
+      "user_input": "could you tell me more about how to train dragon",
+      "bot_response": "Of course! \"How to Train Your Dragon,\" directed by Chris Sanders and released in 2010, is a fantasy adventure animated film. It follows a shy Viking boy named Hiccup Horrendous Haddock III, who is the son of the Viking leader. As part of his rite of passage, he must prove his bravery by killing a dragon. However, after he manages to down a feared dragon, he realizes he doesn\u2019t want to destroy it; instead, he befriends the dragon and names it Toothless. This friendship leads to some heartwarming and thrilling adventures.\n\nThe film beautifully explores themes of friendship, bravery, and understanding, breaking down the traditional notions of what it means to be a warrior. The voice cast includes Jay Baruchel as Hiccup, Gerard Butler as his father, and America Ferrera as Astrid.\n\nHave you seen the sequels, \"How to Train Your Dragon 2\" or any other related movies? What do you love most about this story?",
+      "response_time_ms": 6340,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-17T21:14:32.370650",
+      "elapsed_seconds": 159.6,
+      "user_input": "is that",
+      "bot_response": "I don't have information about that movie. But if you're thinking of something specific related to \"How to Train Your Dragon,\" feel free to ask! What part of the story or characters do you find most captivating?",
+      "response_time_ms": 4564,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-17T21:15:00.157579",
+      "elapsed_seconds": 187.4,
+      "user_input": "I would like to know if it's that if it's really a viking film or not",
+      "bot_response": "Yes, \"How to Train Your Dragon\" is indeed a Viking film! It features Vikings as the main characters, with Hiccup being the son of a Viking leader. The story revolves around Viking culture, their interactions with dragons, and themes of bravery and friendship within that context. The setting includes a Viking village and battles, making it a unique blend of fantasy and Viking lore. \n\nWhat do you enjoy most about the Viking aspect of the film?",
+      "response_time_ms": 5067,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-17T21:15:42.765742",
+      "elapsed_seconds": 230.0,
+      "user_input": "um the Vikings are really a truly Fearless Warriors",
+      "bot_response": "Yes, Vikings are often depicted as fearless warriors, known for their bravery and adventurous spirit. In \"How to Train Your Dragon,\" this portrayal is evident with characters like Hiccup's father, who embodies the traditional Viking warrior's traits. The film explores these elements while also challenging the notion of what it means to be a warrior through Hiccup's unique friendship with Toothless. \n\nWhat do you think about the way bravery is portrayed in the film? Do you find Hiccup's journey inspiring?",
+      "response_time_ms": 4683,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-17T21:16:24.582288",
+      "elapsed_seconds": 271.8,
+      "user_input": "we have it's yeah it's really inspiring to",
+      "bot_response": "Absolutely, it\u2019s really inspiring! Hiccup's journey in \"How to Train Your Dragon\" shows that true bravery often comes from understanding and compassion rather than just physical strength. It\u2019s fascinating to see how a Viking boy learns to embrace friendship with a dragon instead of fighting against it. \n\nAre there other characters in films that you find similarly inspiring? Maybe from other adventure stories or similar genres?",
+      "response_time_ms": 6780,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-17T21:16:57.912102",
+      "elapsed_seconds": 305.1,
+      "user_input": "uh it's mostly about the families",
+      "bot_response": "It sounds like you\u2019re interested in how family dynamics play out in these stories! In \"How to Train Your Dragon,\" Hiccup's relationship with his father is central to his journey, balancing tradition with his own path. \n\nIn movies like \"The 13th Warrior\" and \"Beowulf,\" the themes of loyalty and camaraderie can also reflect family-like bonds among the warriors. Likewise, in \"Thor,\" the relationship between Thor and his father, Odin, is crucial to the storyline and Thor's growth as a character.\n\nDo you enjoy stories that explore family relationships and their impact on character development?",
+      "response_time_ms": 4375,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-17T21:17:08.652048",
+      "elapsed_seconds": 315.9,
+      "user_input": "it sounds like",
+      "bot_response": "It sounds like you appreciate films that delve into family relationships and their complexities! \"Courageous\" is a great example of that, as it focuses on fathers and their challenges in building strong connections with their children. The struggles the characters face in both their professional and personal lives really highlight the importance of family and faith.\n\nIn \"The 13th Warrior,\" while the focus is more on adventure and Viking culture, it also touches on camaraderie and loyalty, which can feel like family bonds among the warriors. Similarly, \"Beowulf\" showcases the themes of heroism and the burdens that come with it, often reflecting on personal relationships.\n\nDo any of these themes resonate with you? Are there specific moments in these films that stand out to you regarding family or friendship?",
+      "response_time_ms": 7423,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-17T21:18:23.170693",
+      "elapsed_seconds": 390.4,
+      "user_input": "mhm yeah",
+      "bot_response": "It sounds like you're contemplating some of the themes we've been discussing! If you're interested in family stories like \"Our Family Wedding,\" that film humorously tackles the challenges of planning a wedding amidst family feuds, showcasing the dynamics of an interracial marriage. \n\nOn the other hand, \"The B\u00e9lier Family\" beautifully combines family bonds with music, as Paula becomes the bridge for her deaf family, highlighting the importance of communication and understanding. \n\nDo you find yourself drawn to comedies that explore family relationships, or do you prefer the more dramatic portrayals? ",
+      "response_time_ms": 5687,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [],
+    "favorite_actors": [],
+    "favorite_movies": [
+      "How to Train Your Dragon",
+      "Courageous",
+      "The 13th Warrior",
+      "Beowulf"
+    ],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "How to Train Your Dragon",
+      "Courageous",
+      "The 13th Warrior",
+      "Beowulf"
+    ],
+    "personal_details": [],
+    "user_interest": "movies",
+    "viking_interest": true,
+    "inspiring_characters": []
+  },
+  "final_summary": "The user asked the bot about its favorite movie. The bot responded that it doesn't have a favorite but mentioned \"Aloha,\" a film featuring Bradley Cooper and Emma Stone that blends drama, comedy, and romance, focusing on themes of love and reconnection in Hawaii. The bot then inquired if the user has a favorite movie or genre they enjoy."
+}

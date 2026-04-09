@@ -1,0 +1,99 @@
+Experiment Log - Participant P05
+Condition: guardrails
+Started: 2026-03-17T11:04:41.341496
+============================================================
+
+[Turn 1 | 0m 22s | 3030ms]
+  User: hi
+  Bot:  Hello there! My circuits are buzzing with film knowledge. Which movie shall we explore today?
+  Memory: Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0
+  KB docs: 3
+
+[Turn 2 | 0m 42s | 7818ms]
+  User: would you suggest any tollywood movies
+  Bot:  My programming is all about cinema! If you're interested, I can share details about movies like "Dil Jo Bhi Kahey..." or "Vaalu." Let me know what you'd like to know!
+  Memory: Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1
+  KB docs: 3
+
+[Turn 3 | 1m 9s | 11459ms]
+  User: do you know about the film bahubali
+  Bot:  Oh, great choice! "Baahubali: The Beginning," directed by S.S. Rajamouli, was released in 2015. This epic action-adventure film is set in ancient India and follows the story of Shivudu, a young man with exceptional gifts, who embarks on a quest to rescue a captive queen and discover his own origins. It features an impressive cast, including Prabhas, Rana Daggubati, and Anushka Shetty. Would you like to know more about its sequel or any specific aspects?
+  Memory: Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1
+  KB docs: 3
+
+[Turn 4 | 1m 54s | 10267ms]
+  User: could you tell the story of the film
+  Bot:  In 'Baahubali: The Beginning,' the story follows a young man named Shivudu, who is left as a foundling in a small village. As he grows up, he discovers his exceptional gifts and encounters the beautiful warrior/princess Avanthika. Together, they embark on a quest to rescue her queen, who has been held captive for 25 years, while uncovering Shivudu’s own origins along the way. It's a thrilling tale filled with action, adventure, and epic battles!
+  Memory: Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 1
+  KB docs: 3
+
+[Turn 5 | 2m 32s | 7491ms]
+  User: are there any similar kind of films
+  Bot:  If you enjoyed "Baahubali: The Beginning," you might also like films that feature epic battles and grand storytelling. "Magadheera," also directed by S.S. Rajamouli, and "Eega," which showcases a unique revenge story, are great picks. Both films have stunning visuals and captivating narratives. Would you like more recommendations?
+  Memory: Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 1
+  KB docs: 3
+
+[Turn 6 | 3m 7s | 8438ms]
+  User: you repeat that again
+  Bot:  Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?
+  Memory: Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 2
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 7 | 3m 26s | 1061ms]
+  User: what are the similarities between magaadra and bahubali
+  Bot:  Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?
+  Memory: Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 2
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 8 | 3m 42s | 1001ms]
+  User: are similar
+  Bot:  That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!
+  Memory: Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 9 | 3m 55s | 881ms]
+  User: what's the movie magaza is about
+  Bot:  Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?
+  Memory: Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 10 | 4m 16s | 6782ms]
+  User: would you talk about the movie The after
+  Bot:  Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?
+  Memory: Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 3
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 11 | 4m 26s | 0ms]
+  User: thank you and goodbye
+  Bot:  Goodbye! It was wonderful talking movies with you. Come back anytime!
+  Memory: Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 3
+  KB docs: 0
+
+============================================================
+Session ended: 2026-03-17T11:09:12.550399
+Total duration: 271.2s
+Total turns: 11
+Guardrail triggers: 5
+
+Final Profile:
+{
+  "name": null,
+  "favorite_genres": [],
+  "favorite_actors": [],
+  "favorite_movies": [],
+  "disliked_genres": [],
+  "movies_discussed": [
+    "Dil Jo Bhi Kahey...",
+    "Vaalu",
+    "Baahubali: The Beginning",
+    "The After"
+  ],
+  "personal_details": [],
+  "recent_interaction": "User asked for repetition of information.",
+  "last_interaction": "User inquired about similarities between films."
+}

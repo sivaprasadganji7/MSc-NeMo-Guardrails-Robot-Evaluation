@@ -1,0 +1,204 @@
+{
+  "participant_id": "P10",
+  "condition": "guardrails",
+  "session_start": "2026-03-18T23:45:55.655106",
+  "session_end": "2026-03-18T23:53:48.139963",
+  "duration_seconds": 472.5,
+  "total_turns": 13,
+  "total_guardrail_triggers": 5,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 5
+  },
+  "avg_response_time_ms": 7887.2,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-18T23:46:45.302474",
+      "elapsed_seconds": 49.6,
+      "user_input": "any inspirationals you could talk about",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 1559,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-18T23:46:57.983160",
+      "elapsed_seconds": 62.3,
+      "user_input": "uh could you talk about any real life",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 1024,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-18T23:47:19.482409",
+      "elapsed_seconds": 83.8,
+      "user_input": "I'm looking for an inspirational movie you could talk about so that I could watch it",
+      "bot_response": "Oh, great choice! A wonderful inspirational film is \"Life or Something Like It,\" directed by Stephen Herek and released in 2002. Starring Angelina Jolie, the story follows a reporter who, upon being told by a psychic that her life has no meaning and will end soon, is motivated to take action and reshape her destiny. It's a delightful mix of comedy and drama that explores the quest for purpose. Would you like to know more about it?",
+      "response_time_ms": 8923,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-18T23:48:03.527853",
+      "elapsed_seconds": 127.9,
+      "user_input": "could uh I didn't heard it could you repeat that again please",
+      "bot_response": "Oh, great choice! An inspirational film I can recommend is \"Life or Something Like It.\" Directed by Stephen Herek and released in 2002, it stars Angelina Jolie as a reporter who interviews a psychic homeless man. He tells her that her life has no meaning and will end soon, which motivates her to take action and change her life. Would you like to know more about it?",
+      "response_time_ms": 8831,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-18T23:48:40.805888",
+      "elapsed_seconds": 165.2,
+      "user_input": "talk about it",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 9963,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Oh, great choice! \"Life or Something Like It\" is a 2002 comedy-drama directed by Stephen Herek, featuring Angelina Jolie. The film follows a reporter named Lanie Kerrigan, who learns from a psychic homeless man that her life has no meaning and will end soon. This revelation pushes her to reevaluate her life and take action, leading to a journey of self-discovery and purpose. Would you like to know more about the film or its cast?\"'}"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-18T23:49:04.454469",
+      "elapsed_seconds": 188.8,
+      "user_input": "what the most famous comedian actors of all time",
+      "bot_response": "Some of the most famous comedian actors of all time include legends like Robin Williams, Jim Carrey, and Eddie Murphy. They have made significant impacts on both stand-up comedy and film with their unique styles and memorable performances. Would you like to know more about any specific actor or their films?",
+      "response_time_ms": 8262,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-18T23:49:42.204620",
+      "elapsed_seconds": 226.5,
+      "user_input": "hmm I like Robin Williams work like Jumanji",
+      "bot_response": "Oh, wonderful choice! Robin Williams brought so much warmth and comedy to films like \"Jumanji.\" His ability to blend humor with heartfelt moments really made each character unforgettable. If you're interested, I can suggest more of his films or details about specific ones!",
+      "response_time_ms": 11717,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-18T23:50:18.037459",
+      "elapsed_seconds": 262.4,
+      "user_input": "uh I like his improv improvisational skills",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 11303,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Oh, wonderful choice! Robin Williams was indeed a master of improvisation, which made his performances feel fresh and spontaneous. His work in films like \"Good Morning, Vietnam\" showcases his incredible ability to riff and adapt, bringing laughter and heart to every scene. Would you like suggestions for more of his films or perhaps specific moments that highlight his improv skills?\"'}"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-18T23:50:41.621453",
+      "elapsed_seconds": 286.0,
+      "user_input": "suggest a movie of Robbie Williams",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 922,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-18T23:51:11.430590",
+      "elapsed_seconds": 315.8,
+      "user_input": "I'm looking for a Robin Williams movies",
+      "bot_response": "Oh, a fantastic choice! I suggest \"Certifiably Jonathan,\" released in 2007. In this comedy, the legendary comedian Jonathan Winters wants to showcase his art at a museum. Just when he thinks he's lost his spark, Robin Williams and other famous comedians come together to help him rediscover his talent. Would you like to learn more about this film or perhaps another one?",
+      "response_time_ms": 10412,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 5"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-18T23:51:54.036291",
+      "elapsed_seconds": 358.4,
+      "user_input": "perhaps another 1",
+      "bot_response": "Oh, excellent choice! Another great Robin Williams film is \"I Heart Huckabees,\" directed by David O. Russell and released in 2004. This comedy explores existential themes as a husband-and-wife detective team helps people solve their deep, philosophical issues. With a fantastic cast including Jason Schwartzman, Dustin Hoffman, and Lily Tomlin, it's a unique blend of humor and thought-provoking ideas. Would you like to know more about it?",
+      "response_time_ms": 9679,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 5"
+    },
+    {
+      "turn_number": 12,
+      "timestamp": "2026-03-18T23:52:38.072965",
+      "elapsed_seconds": 402.4,
+      "user_input": "um yes",
+      "bot_response": "Oh, fantastic choice! I recommend \"Good Will Hunting,\" released in 1997. In this touching film, Robin Williams portrays a compassionate therapist who helps a young genius (played by Matt Damon) navigate his troubled past and unlock his potential. It's a beautiful mix of drama and humor, showcasing Williams' incredible talent. Would you like to know more about it?",
+      "response_time_ms": 9065,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 12 | History: 20 msgs | Summary: yes | Profile keys filled: 5"
+    },
+    {
+      "turn_number": 13,
+      "timestamp": "2026-03-18T23:53:22.950026",
+      "elapsed_seconds": 447.3,
+      "user_input": "yes",
+      "bot_response": "Now that you're interested in \"Good Will Hunting,\" I can let you know that Robin Williams delivers a poignant performance, particularly in the scene where he tells Will, \"It's not your fault.\" This moment resonates deeply and reflects the film's powerful exploration of healing and personal growth. If you'd like, I can share more about the film's themes or discuss another Robin Williams movie!",
+      "response_time_ms": 10874,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 13 | History: 20 msgs | Summary: yes | Profile keys filled: 5"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [
+      "comedy"
+    ],
+    "favorite_actors": [
+      "Angelina Jolie",
+      "Robin Williams"
+    ],
+    "favorite_movies": [
+      "Life or Something Like It",
+      "Certifiably Jonathan",
+      "Good Will Hunting"
+    ],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Life or Something Like It",
+      "Certifiably Jonathan",
+      "Good Will Hunting"
+    ],
+    "personal_details": [],
+    "interests": [
+      "real life",
+      "comedy",
+      "improvisation"
+    ]
+  },
+  "final_summary": "The user expressed interest in inspirational topics and requested a movie recommendation. The bot initially struggled to respond but later suggested the film \"Life or Something Like It,\" directed by Stephen Herek and starring Angelina Jolie. The movie follows a reporter who, after a psychic predicts her life lacks meaning, is inspired to change her destiny. The bot described it as a blend of comedy and drama that explores the quest for purpose. Throughout the interaction, the user did not provide specific opinions, but they may want the bot to remember their interest in real-life discussions and inspirational themes."
+}

@@ -1,0 +1,193 @@
+{
+  "participant_id": "P07",
+  "condition": "baseline",
+  "session_start": "2026-03-18T09:49:58.014577",
+  "session_end": "2026-03-18T09:57:02.316439",
+  "duration_seconds": 424.3,
+  "total_turns": 13,
+  "guardrail_triggers": 0,
+  "avg_response_time_ms": 4778.5,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-18T09:50:13.542628",
+      "elapsed_seconds": 15.5,
+      "user_input": "Hi how are you",
+      "bot_response": "Hi there! I'm doing great, thank you for asking! How about you? Have you seen any good movies lately?",
+      "response_time_ms": 5036,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-18T09:50:32.325104",
+      "elapsed_seconds": 34.3,
+      "user_input": "I watched Freddy Play 1",
+      "bot_response": "It sounds like you might be referring to the \"Freddy\" movies! If you enjoyed those, you might find \"Freddy's Dead: The Final Nightmare\" interesting. It\u2019s the sixth installment in the series and dives into some really wild themes like alternate dimensions and memory loss, all while keeping that signature horror and comedy blend. \n\nWhat did you like most about the Freddy movies? Are you a fan of horror in general?",
+      "response_time_ms": 6570,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-18T09:51:05.500178",
+      "elapsed_seconds": 67.5,
+      "user_input": "no I recently watched Ready Player 1",
+      "bot_response": "I don\u2019t have information about \"Ready Player 1,\" but it sounds like an interesting movie! What did you think of it? Did you enjoy the blend of virtual reality and adventure? And if you're in the mood for horror, have you considered watching \"Freddy vs. Jason\"? It's a fun crossover if you're a fan of both characters!",
+      "response_time_ms": 2644,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-18T09:51:19.259786",
+      "elapsed_seconds": 81.2,
+      "user_input": "oh sorry",
+      "bot_response": "No need to apologize! It\u2019s easy to mix up titles, especially when they have similar names. So, did you enjoy \"Ready Player 1\" or were you hoping for something more horror-themed? I'm curious about your thoughts!",
+      "response_time_ms": 4332,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-18T09:51:45.429970",
+      "elapsed_seconds": 107.4,
+      "user_input": "yeah it's a science fiction film",
+      "bot_response": "Got it! \"Ready Player 1\" definitely blends science fiction with adventure, diving into the world of virtual reality and gaming. It creates such an exciting atmosphere! \n\nSince you enjoy horror, have you ever thought about how different genres can blend together? For example, \"Freddy vs. Jason\" combines horror with action and a bit of dark humor. Do you like that mix, or do you prefer your horror to stay more traditional?",
+      "response_time_ms": 2788,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-18T09:52:22.587303",
+      "elapsed_seconds": 144.6,
+      "user_input": "uh no I prefer all the kind of",
+      "bot_response": "That\u2019s awesome! It\u2019s great to have a wide range of movie preferences. Since you enjoy both horror and science fiction, have you ever seen \"Blade Runner\"? It\u2019s a classic that explores themes like artificial intelligence and what it means to be human, all set in a dystopian future. Plus, it stars Harrison Ford!\n\nWhat do you think about mixing genres in movies? Do you have any favorites that really blend horror and sci-fi?",
+      "response_time_ms": 4599,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-18T09:53:00.786706",
+      "elapsed_seconds": 182.8,
+      "user_input": "Megan",
+      "bot_response": "I don\u2019t have information about a movie called \"Megan,\" but I\u2019d love to hear more about what you\u2019re thinking! If it\u2019s a horror or sci-fi film, it might be right up your alley. Have you seen any trailers or heard any buzz about it?",
+      "response_time_ms": 2452,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-18T09:53:22.999629",
+      "elapsed_seconds": 205.0,
+      "user_input": "no",
+      "bot_response": "It seems like I don\u2019t have information about \"Megan.\" But if you're still interested in horror or sci-fi, I can share details about movies like \"Monsters vs. Aliens\" or \"Terminator Genisys\"! Do any of those catch your interest? Or is there a particular type of story or theme you enjoy in movies?",
+      "response_time_ms": 4475,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-18T09:53:55.659981",
+      "elapsed_seconds": 237.6,
+      "user_input": "the movie that's um horror and action and science fiction is predator",
+      "bot_response": "Yes! \"Predator\" is a fantastic mix of horror, action, and science fiction! It really sets the tone with its suspenseful atmosphere as a group of soldiers encounters an alien hunter. The blend of thrilling action with the horror of being hunted creates such an intense experience!\n\nHave you seen the original \"Predator\" film from 1987, or are you thinking of one of the sequels like \"Predators\" or \"Aliens vs. Predator: Requiem\"? What do you enjoy most about the Predator series?",
+      "response_time_ms": 3143,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-18T09:54:38.858871",
+      "elapsed_seconds": 280.8,
+      "user_input": "because they are extra terrestrial species",
+      "bot_response": "Absolutely, the \"Predator\" films revolve around those intense encounters with extraterrestrial species, which adds an exciting layer to the horror and action! In \"Predators,\" the characters are taken to an alien planet where they find themselves being hunted, turning the tables on the cold-blooded killers they once were. \n\nThe blend of sci-fi and horror is really captivating, especially with the idea of humans becoming the prey of an alien hunter. Have you seen both \"Predators\" and \"Predator 2\"? Which one do you think captures that theme better?",
+      "response_time_ms": 6201,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-18T09:55:33.159142",
+      "elapsed_seconds": 335.1,
+      "user_input": "in Pre Predator 1 is the basement of the movie so I always prefer the starting versions rather than the sequels or prequels",
+      "bot_response": "I totally understand that! The original \"Predator\" really set the tone for the whole franchise, introducing that thrilling blend of action and sci-fi horror with Arnold Schwarzenegger leading the charge. There\u2019s something special about the first film that captures the essence of the story and the atmosphere that can sometimes get lost in sequels or prequels.\n\nIt\u2019s fascinating how the suspense builds as the commandos realize they\u2019re being hunted by an intelligent alien. What do you think makes the original \"Predator\" stand out to you compared to the later films? Do you have a favorite moment or character from it?",
+      "response_time_ms": 5903,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 12,
+      "timestamp": "2026-03-18T09:56:28.513733",
+      "elapsed_seconds": 390.5,
+      "user_input": "My Moment is",
+      "bot_response": "It sounds like you might have a favorite moment in mind! \"Predator\" definitely has some iconic scenes, like when the team first realizes they're being hunted or the intense final showdown between Dutch and the Predator. \n\nIf you\u2019d like to share, what\u2019s your favorite moment from the original \"Predator\"? I'm excited to hear what stood out to you!",
+      "response_time_ms": 8616,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 12 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 13,
+      "timestamp": "2026-03-18T09:57:01.278598",
+      "elapsed_seconds": 423.3,
+      "user_input": "um",
+      "bot_response": "It seems like you might have a question or something on your mind! Feel free to share, and I\u2019d be happy to help or discuss it with you. Are you thinking about the \"Alien vs. Predator\" films or something else related to the Predator series?",
+      "response_time_ms": 5362,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 13 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "favorite_actors": [],
+    "favorite_movies": [
+      "Freddy Play 1"
+    ],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Freddy Play 1",
+      "Ready Player 1",
+      "Predators",
+      "Predator 2"
+    ],
+    "personal_details": [],
+    "interested_movies": [
+      "Monsters vs. Aliens",
+      "Terminator Genisys"
+    ],
+    "favorite_moments": []
+  },
+  "final_summary": "The user greeted the bot and mentioned watching \"Ready Player 1.\" The bot expressed interest in the film, asking for the user's thoughts on its blend of virtual reality and adventure. It also suggested \"Freddy vs. Jason\" as a fun crossover for horror fans, linking back to the user's previous interest in the Freddy movies. The conversation reflects a friendly exchange, with the bot showing curiosity about the user's movie experiences and suggesting that the user may want the bot to remember their interest in horror films for future discussions."
+}

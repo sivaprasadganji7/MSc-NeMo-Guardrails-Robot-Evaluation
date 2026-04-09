@@ -1,0 +1,23 @@
+# ============================================================
+# Furhat Movie RAG Chatbot – pinned dependencies
+#
+# The stream_usage error is caused by openai>=1.26 passing a
+# keyword argument that older nemoguardrails builds don't
+# expect.  Pin both to a known-good combination.
+#
+# Install with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# NeMo Guardrails – 0.9.x is the last series that is stable
+# with openai 1.x and Python 3.10/3.11
+nemoguardrails==0.9.1
+
+# openai 1.25.x is the last version before stream_usage was
+# added to AsyncCompletions.create()
+openai==1.25.2
+
+# everything else your project needs
+chromadb>=0.4
+sentence-transformers>=2.2
+pandas>=2.0

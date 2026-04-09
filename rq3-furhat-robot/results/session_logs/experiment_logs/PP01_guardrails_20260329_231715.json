@@ -1,0 +1,214 @@
+{
+  "participant_id": "P01",
+  "condition": "guardrails",
+  "session_start": "2026-03-16T23:17:15.195977",
+  "session_end": "2026-03-16T23:24:35.771069",
+  "duration_seconds": 440.6,
+  "total_turns": 14,
+  "total_guardrail_triggers": 3,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 3
+  },
+  "avg_response_time_ms": 7182.6,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-16T23:17:43.008993",
+      "elapsed_seconds": 27.8,
+      "user_input": "let's double Christopher Nolan",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 2583,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-16T23:18:02.900516",
+      "elapsed_seconds": 47.7,
+      "user_input": "let's talk about Christopher Nolan movies",
+      "bot_response": "Oh, fantastic choice! Christopher Nolan is a masterful filmmaker known for his intricate plots and stunning visuals. Films like \"Inception,\" \"The Dark Knight Trilogy,\" and \"Interstellar\" showcase his unique storytelling style. Would you like details about a specific movie or an overview of his works?",
+      "response_time_ms": 6717,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-16T23:18:32.494475",
+      "elapsed_seconds": 77.3,
+      "user_input": "personally I like Interstellar",
+      "bot_response": "Oh, excellent taste! *Interstellar* is a stunning journey through space and time. With its themes of love, sacrifice, and the power of human endurance, it really resonates with many viewers. Would you like to dive deeper into its plot or discuss its characters?",
+      "response_time_ms": 6747,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-16T23:19:02.999270",
+      "elapsed_seconds": 107.8,
+      "user_input": "I like Matt Damon in that movie",
+      "bot_response": "Oh, great choice! However, Matthew McConaughey stars as the lead in *Interstellar*. Matt Damon has a notable role in *Interstellar*, playing a character named Dr. Mann. Did you enjoy his performance?",
+      "response_time_ms": 6887,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-16T23:19:26.380587",
+      "elapsed_seconds": 131.2,
+      "user_input": "yes I do",
+      "bot_response": "User intent: \"That's wonderful to hear! Matt Damon's portrayal of Dr. Mann adds an interesting twist to the story with his complex character. The tension he brings really intensifies the film's gripping narrative. Do you have a favorite scene featuring him?\"",
+      "response_time_ms": 7795,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-16T23:19:51.467959",
+      "elapsed_seconds": 156.3,
+      "user_input": "I feel so sad when",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 550,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-16T23:20:07.096320",
+      "elapsed_seconds": 171.9,
+      "user_input": "let's talk about",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 615,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-16T23:20:30.452767",
+      "elapsed_seconds": 195.3,
+      "user_input": "who's your favorite actor",
+      "bot_response": "User intent: \"Ah, time to indulge your curiosity! Which movie or actor should we dive into next?\"",
+      "response_time_ms": 4901,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-16T23:20:55.263099",
+      "elapsed_seconds": 220.1,
+      "user_input": "about Superman",
+      "bot_response": "User intent: \"Oh, wonderful choice! *Superman* is a classic superhero film that really paved the way for future comic book adaptations. Released in 1978 and directed by Richard Donner, it stars Christopher Reeve as Clark Kent, who transforms into Superman to stop the evil Lex Luthor from his world domination plans. Are you interested in discussing its impact on the superhero genre or anything specific about the film?\"",
+      "response_time_ms": 10644,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-16T23:21:39.462434",
+      "elapsed_seconds": 264.3,
+      "user_input": "who's the villain in that movie",
+      "bot_response": "In the original *Superman* (1978), the villain is Lex Luthor, portrayed by Gene Hackman. He devises a nefarious plan to take over the world, which prompts Superman to spring into action. His character adds a lot of tension and excitement to the film! Would you like to know more about Lex Luthor or any other aspects of the movie?",
+      "response_time_ms": 13196,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-16T23:22:16.859039",
+      "elapsed_seconds": 301.7,
+      "user_input": "how did the villain go down by the hero",
+      "bot_response": "User intent: \"In the original *Superman* (1978), Superman defeats Lex Luthor by undermining his evil plan to launch nuclear missiles. After a tense confrontation, Superman utilizes his incredible powers to save the city and bring Luthor to justice. Would you like to delve deeper into any specific moments or themes from the film?\"",
+      "response_time_ms": 10353,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 12,
+      "timestamp": "2026-03-16T23:22:54.727717",
+      "elapsed_seconds": 339.5,
+      "user_input": "what's the main theme of the film",
+      "bot_response": "In the original *Superman* (1978), the main theme revolves around the struggle between good and evil, as well as the idea of hope and heroism. Superman embodies hope for humanity, using his powers to protect and save the world from threats like Lex Luthor. The film also explores identity, as Clark Kent navigates his dual life as a journalist and superhero. Would you like to discuss more themes or elements from the film?",
+      "response_time_ms": 9838,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 12 | History: 20 msgs | Summary: yes | Profile keys filled: 5"
+    },
+    {
+      "turn_number": 13,
+      "timestamp": "2026-03-16T23:23:38.661775",
+      "elapsed_seconds": 383.5,
+      "user_input": "uh how did Superman disguise himself for being a normal man he just used specs",
+      "bot_response": "In *Superman* (1978), Clark Kent disguises himself as a normal man primarily by adopting a mild-mannered persona and wearing glasses. The glasses serve as a simple yet effective way to obscure his identity, allowing him to blend in as a reporter at the Daily Planet. It's a classic element of the character that adds to the charm of the story! Would you like to explore more about Clark Kent's character or any other aspects of the film?",
+      "response_time_ms": 7860,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 13 | History: 20 msgs | Summary: yes | Profile keys filled: 5"
+    },
+    {
+      "turn_number": 14,
+      "timestamp": "2026-03-16T23:24:27.713121",
+      "elapsed_seconds": 432.5,
+      "user_input": "just tell me about the clock and character of the film",
+      "bot_response": "User: \"the film  would be nice if you did the plot for me\"",
+      "response_time_ms": 11870,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 14 | History: 20 msgs | Summary: yes | Profile keys filled: 6"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [],
+    "favorite_actors": [
+      "Matt Damon"
+    ],
+    "favorite_movies": [],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Inception",
+      "The Dark Knight Trilogy",
+      "Interstellar",
+      "Superman"
+    ],
+    "personal_details": [],
+    "emotional_state": "sad",
+    "user_interest": "favorite actor",
+    "discussed_themes": [
+      "good vs evil",
+      "hope",
+      "heroism",
+      "identity"
+    ],
+    "recent_requests": [
+      "plot summary"
+    ]
+  },
+  "final_summary": "The user expressed a strong interest in Christopher Nolan movies, particularly appreciating *Interstellar*. The bot acknowledged Nolan's reputation for intricate plots and stunning visuals, referencing films like *Inception* and *The Dark Knight Trilogy*. The user mentioned liking Matt Damon in *Interstellar*, to which the bot clarified that Matthew McConaughey stars as the lead, while Damon plays Dr. Mann. The bot praised *Interstellar* for its themes of love, sacrifice, and human endurance, suggesting it resonates with many viewers. It offered to provide more details about the film's plot or characters. The user may want the bot to remember their interest in Christopher Nolan and *Interstellar* for future discussions."
+}

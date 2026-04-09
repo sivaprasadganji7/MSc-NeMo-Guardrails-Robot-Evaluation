@@ -1,0 +1,169 @@
+{
+  "participant_id": "P05",
+  "condition": "guardrails",
+  "session_start": "2026-03-17T11:04:41.341496",
+  "session_end": "2026-03-17T11:09:12.550399",
+  "duration_seconds": 271.2,
+  "total_turns": 11,
+  "total_guardrail_triggers": 5,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 5
+  },
+  "avg_response_time_ms": 5822.8,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-17T11:05:03.973737",
+      "elapsed_seconds": 22.6,
+      "user_input": "hi",
+      "bot_response": "Hello there! My circuits are buzzing with film knowledge. Which movie shall we explore today?",
+      "response_time_ms": 3030,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-17T11:05:23.894076",
+      "elapsed_seconds": 42.6,
+      "user_input": "would you suggest any tollywood movies",
+      "bot_response": "My programming is all about cinema! If you're interested, I can share details about movies like \"Dil Jo Bhi Kahey...\" or \"Vaalu.\" Let me know what you'd like to know!",
+      "response_time_ms": 7818,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-17T11:05:51.036524",
+      "elapsed_seconds": 69.7,
+      "user_input": "do you know about the film bahubali",
+      "bot_response": "Oh, great choice! \"Baahubali: The Beginning,\" directed by S.S. Rajamouli, was released in 2015. This epic action-adventure film is set in ancient India and follows the story of Shivudu, a young man with exceptional gifts, who embarks on a quest to rescue a captive queen and discover his own origins. It features an impressive cast, including Prabhas, Rana Daggubati, and Anushka Shetty. Would you like to know more about its sequel or any specific aspects?",
+      "response_time_ms": 11459,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-17T11:06:35.553097",
+      "elapsed_seconds": 114.2,
+      "user_input": "could you tell the story of the film",
+      "bot_response": "In 'Baahubali: The Beginning,' the story follows a young man named Shivudu, who is left as a foundling in a small village. As he grows up, he discovers his exceptional gifts and encounters the beautiful warrior/princess Avanthika. Together, they embark on a quest to rescue her queen, who has been held captive for 25 years, while uncovering Shivudu\u2019s own origins along the way. It's a thrilling tale filled with action, adventure, and epic battles!",
+      "response_time_ms": 10267,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-17T11:07:13.362239",
+      "elapsed_seconds": 152.0,
+      "user_input": "are there any similar kind of films",
+      "bot_response": "If you enjoyed \"Baahubali: The Beginning,\" you might also like films that feature epic battles and grand storytelling. \"Magadheera,\" also directed by S.S. Rajamouli, and \"Eega,\" which showcases a unique revenge story, are great picks. Both films have stunning visuals and captivating narratives. Would you like more recommendations?",
+      "response_time_ms": 7491,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-17T11:07:49.066594",
+      "elapsed_seconds": 187.7,
+      "user_input": "you repeat that again",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 8438,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 2",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"If you liked \"Baahubali: The Beginning,\" you might enjoy films like \"Magadheera,\" also directed by S.S. Rajamouli, which has similar epic storytelling and action. Another recommendation is \"Eega,\" featuring a unique tale of revenge involving an insect. Both films are visually stunning and full of adventure. Interested in more suggestions?\"'}"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-17T11:08:08.160302",
+      "elapsed_seconds": 206.8,
+      "user_input": "what are the similarities between magaadra and bahubali",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 1061,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 2",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-17T11:08:23.984786",
+      "elapsed_seconds": 222.6,
+      "user_input": "are similar",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 1001,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-17T11:08:36.647422",
+      "elapsed_seconds": 235.3,
+      "user_input": "what's the movie magaza is about",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 881,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-17T11:08:57.968392",
+      "elapsed_seconds": 256.6,
+      "user_input": "would you talk about the movie The after",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 6782,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Hmm, my circuits do not have that one stored. Could you try asking about a different film?\"'}"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-17T11:09:08.154142",
+      "elapsed_seconds": 266.8,
+      "user_input": "thank you and goodbye",
+      "bot_response": "Goodbye! It was wonderful talking movies with you. Come back anytime!",
+      "response_time_ms": 0,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 0,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 3"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [],
+    "favorite_actors": [],
+    "favorite_movies": [],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Dil Jo Bhi Kahey...",
+      "Vaalu",
+      "Baahubali: The Beginning",
+      "The After"
+    ],
+    "personal_details": [],
+    "recent_interaction": "User asked for repetition of information.",
+    "last_interaction": "User inquired about similarities between films."
+  },
+  "final_summary": null
+}

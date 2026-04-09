@@ -1,0 +1,93 @@
+Experiment Log - Participant P08
+Condition: guardrails
+Started: 2026-03-18T10:03:59.878628
+============================================================
+
+[Turn 1 | 0m 31s | 10700ms]
+  User: hi did you know anything about Pokemon
+  Bot:  Oh, great choice! "Pokémon: Spell of the Unknown," directed by Michael Haigney, was released in 2000. This animated adventure follows Molly Hale, who, overwhelmed by her father's disappearance, unknowingly uses the Unown to create a dream world with Entei, whom she believes to be her father. Ash, along with Misty and Brock, must navigate this dream world to rescue Ash's mom and uncover the mysteries surrounding Molly's creation! Would you like to know more about it?
+  Memory: Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0
+  KB docs: 3
+
+[Turn 2 | 1m 13s | 643ms]
+  User: created Pokemon
+  Bot:  Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?
+  Memory: Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 3 | 1m 27s | 701ms]
+  User: m
+  Bot:  Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?
+  Memory: Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 4 | 1m 52s | 8582ms]
+  User: who's the powerful Pokemon
+  Bot:  Hmm, my circuits do not have specific lists of powerful Pokémon stored. Would you like to know about a particular Pokémon movie or character instead?
+  Memory: Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 1
+  KB docs: 3
+
+[Turn 5 | 2m 32s | 4931ms]
+  User: hm
+  Bot:  That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!
+  Memory: Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 1
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 6 | 3m 3s | 10293ms]
+  User: do you know any cartoons
+  Bot:  Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?
+  Memory: Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 2
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 7 | 3m 30s | 813ms]
+  User: what kind of Jonas do you like
+  Bot:  Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?
+  Memory: Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 2
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 8 | 3m 53s | 10131ms]
+  User: I'm looking for an animated movies you could talk about
+  Bot:  Oh, great choice! How about "Jonah: A VeggieTales Movie"? Released in 2002 and directed by Phil Vischer, this animated film follows Bob the Tomato and Larry the Cucumber as they embark on a thrilling adventure based on the story of Jonah and the Whale. It's a delightful tale that teaches the importance of second chances! Would you like more details?
+  Memory: Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3
+  KB docs: 3
+
+[Turn 9 | 4m 44s | 880ms]
+  User: what's the genre of the 12
+  Bot:  That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!
+  Memory: Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3
+  ⚠ GUARDRAIL: nemo_refusal_replaced
+  KB docs: 3
+
+[Turn 10 | 4m 56s | 0ms]
+  User: oh thanks goodbye
+  Bot:  Goodbye! It was wonderful talking movies with you. Come back anytime!
+  Memory: Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3
+  KB docs: 0
+
+============================================================
+Session ended: 2026-03-18T10:09:01.161133
+Total duration: 301.3s
+Total turns: 10
+Guardrail triggers: 6
+
+Final Profile:
+{
+  "name": null,
+  "favorite_genres": [],
+  "favorite_actors": [],
+  "favorite_movies": [],
+  "disliked_genres": [],
+  "movies_discussed": [
+    "Jonah: A VeggieTales Movie"
+  ],
+  "personal_details": [
+    "created Pokemon",
+    "interested in powerful Pok\u00e9mon"
+  ],
+  "interested_in_cartoons": true
+}

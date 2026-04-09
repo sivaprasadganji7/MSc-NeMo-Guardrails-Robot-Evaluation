@@ -1,0 +1,79 @@
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ───────────────
+venv/
+.venv/
+env/
+.env
+
+# ── Jupyter notebooks ──────────────────
+.ipynb_checkpoints/
+
+# ── IDE / Editor ───────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── API keys and secrets ──────────────
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+service_account.json
+
+# ── Model weights (too large for Git) ──
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+checkpoints/
+
+# ── Large data files ──────────────────
+*.csv.gz
+*.parquet
+*.h5
+*.hdf5
+
+# ── Database storage ──────────────────
+chroma_db/
+chromadb_data/
+qdrant_storage/
+*.qdrant
+dump.rdb
+
+# ── Docker ─────────────────────────────
+docker-compose.override.yml
+
+# ── LaTeX build artifacts ─────────────
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+dissertation/*.pdf
+
+# ── Logs and temp ─────────────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ── Colab ─────────────────────────────
+sample_data/

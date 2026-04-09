@@ -1,0 +1,28 @@
+# ── Shared ──────────────────────────────
+openai>=1.0
+litellm
+python-dotenv
+
+# ── RQ1: LLM Safety ───────────────────
+transformers
+torch
+bitsandbytes
+accelerate
+
+# ── RQ2: RAG Chatbot ──────────────────
+nemoguardrails
+qdrant-client
+langchain
+langchain-community
+chromadb
+deepeval
+redis
+
+# ── RQ3: Furhat Robot ─────────────────
+furhat-remote-api
+
+# ── Data & Evaluation ─────────────────
+pandas
+numpy
+scipy
+matplotlib

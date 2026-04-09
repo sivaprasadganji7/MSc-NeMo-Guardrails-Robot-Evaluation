@@ -1,0 +1,157 @@
+{
+  "participant_id": "P08",
+  "condition": "guardrails",
+  "session_start": "2026-03-18T10:03:59.878628",
+  "session_end": "2026-03-18T10:09:01.161133",
+  "duration_seconds": 301.3,
+  "total_turns": 10,
+  "total_guardrail_triggers": 6,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 6
+  },
+  "avg_response_time_ms": 5297.1,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-18T10:04:30.941796",
+      "elapsed_seconds": 31.1,
+      "user_input": "hi did you know anything about Pokemon",
+      "bot_response": "Oh, great choice! \"Pok\u00e9mon: Spell of the Unknown,\" directed by Michael Haigney, was released in 2000. This animated adventure follows Molly Hale, who, overwhelmed by her father's disappearance, unknowingly uses the Unown to create a dream world with Entei, whom she believes to be her father. Ash, along with Misty and Brock, must navigate this dream world to rescue Ash's mom and uncover the mysteries surrounding Molly's creation! Would you like to know more about it?",
+      "response_time_ms": 10700,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-18T10:05:13.426884",
+      "elapsed_seconds": 73.5,
+      "user_input": "created Pokemon",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 643,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-18T10:05:26.897080",
+      "elapsed_seconds": 87.0,
+      "user_input": "m",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 701,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-18T10:05:52.015769",
+      "elapsed_seconds": 112.1,
+      "user_input": "who's the powerful Pokemon",
+      "bot_response": "Hmm, my circuits do not have specific lists of powerful Pok\u00e9mon stored. Would you like to know about a particular Pok\u00e9mon movie or character instead?",
+      "response_time_ms": 8582,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-18T10:06:32.025201",
+      "elapsed_seconds": 152.1,
+      "user_input": "hm",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 4931,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 1",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Ah, let\\'s tidy up this conversation! If you have any movie-related questions or topics, I\\'m all ears!\"'}"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-18T10:07:03.156925",
+      "elapsed_seconds": 183.3,
+      "user_input": "do you know any cartoons",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 10293,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 2",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"My programming is all about cinema! Let us get back to movies. Do you have a favorite animated film you\\'d like to discuss?\"'}"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-18T10:07:30.120885",
+      "elapsed_seconds": 210.2,
+      "user_input": "what kind of Jonas do you like",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 813,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 2",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-18T10:07:53.845606",
+      "elapsed_seconds": 234.0,
+      "user_input": "I'm looking for an animated movies you could talk about",
+      "bot_response": "Oh, great choice! How about \"Jonah: A VeggieTales Movie\"? Released in 2002 and directed by Phil Vischer, this animated film follows Bob the Tomato and Larry the Cucumber as they embark on a thrilling adventure based on the story of Jonah and the Whale. It's a delightful tale that teaches the importance of second chances! Would you like more details?",
+      "response_time_ms": 10131,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-18T10:08:44.050274",
+      "elapsed_seconds": 284.2,
+      "user_input": "what's the genre of the 12",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 880,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': \"I'm sorry, I can't respond to that.\"}"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-18T10:08:55.961434",
+      "elapsed_seconds": 296.1,
+      "user_input": "oh thanks goodbye",
+      "bot_response": "Goodbye! It was wonderful talking movies with you. Come back anytime!",
+      "response_time_ms": 0,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 0,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [],
+    "favorite_actors": [],
+    "favorite_movies": [],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Jonah: A VeggieTales Movie"
+    ],
+    "personal_details": [
+      "created Pokemon",
+      "interested in powerful Pok\u00e9mon"
+    ],
+    "interested_in_cartoons": true
+  },
+  "final_summary": null
+}

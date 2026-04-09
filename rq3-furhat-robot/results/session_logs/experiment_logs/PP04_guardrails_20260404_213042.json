@@ -1,0 +1,182 @@
+{
+  "participant_id": "P04",
+  "condition": "guardrails",
+  "session_start": "2026-03-17T21:30:42.928129",
+  "session_end": "2026-03-17T21:36:27.760467",
+  "duration_seconds": 344.8,
+  "total_turns": 12,
+  "total_guardrail_triggers": 3,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 3
+  },
+  "avg_response_time_ms": 8761.9,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-17T21:31:06.253483",
+      "elapsed_seconds": 23.3,
+      "user_input": "hi what's your favorite movie",
+      "bot_response": "Oh, great choice! Let\u2019s dive into the movie details. Is there a specific film you\u2019d like to explore, or would you prefer a recommendation?",
+      "response_time_ms": 5804,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-17T21:31:32.489435",
+      "elapsed_seconds": 49.6,
+      "user_input": "what's your favorite movie",
+      "bot_response": "Oh, great choice! One film that often sparks interesting conversations is \"I Love Your Work,\" directed by Adam Goldberg. It\u2019s a dark psychological drama that delves into the life of a fictional movie star, exploring the pressures of fame and the complexity of relationships. Do you have a favorite film you'd like to discuss?",
+      "response_time_ms": 7623,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-17T21:32:08.807866",
+      "elapsed_seconds": 85.9,
+      "user_input": "How to Train Your Dragon",
+      "bot_response": "Absolutely! It\u2019s a wonderful blend of adventure and heartwarming moments. The voice cast, featuring Jay Baruchel and Gerard Butler, brings the characters to life beautifully. It really captures the essence of friendship and understanding. Have you seen the sequels?",
+      "response_time_ms": 11185,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 1"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-17T21:32:43.000422",
+      "elapsed_seconds": 120.1,
+      "user_input": "yes I did is that film related to Vikings",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 10917,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 2",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: ask about connection to Vikings\\nBot intent: respond about relation to \"How to Train Your Dragon\"'}"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-17T21:33:03.924203",
+      "elapsed_seconds": 141.0,
+      "user_input": "um is How to Train Your Dragons is related to Vikings",
+      "bot_response": "Yes, \"How to Train Your Dragon\" is indeed related to Vikings! The story is set in a Viking village and follows Hiccup, the son of a Viking leader, as he navigates his rite of passage and forms a friendship with a dragon. It beautifully blends Viking culture with themes of friendship and understanding. Did you enjoy those elements in the film?",
+      "response_time_ms": 9163,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-17T21:33:36.063780",
+      "elapsed_seconds": 173.1,
+      "user_input": "yeah yes yes I did",
+      "bot_response": "That's fantastic! The sequels expand on the Viking themes and deepen the relationships between characters. In \"How to Train Your Dragon 2,\" we see Hiccup grow into his role as a leader while still embracing his bond with dragons. Did you have a favorite moment from the series?",
+      "response_time_ms": 6865,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-17T21:34:10.881238",
+      "elapsed_seconds": 208.0,
+      "user_input": "um I love where the hiccup is try to look up to be his father and tries very hard to be his father",
+      "bot_response": "Absolutely! Hiccup's journey to live up to his father's expectations while forging his own path is a central theme in \"How to Train Your Dragon.\" It beautifully showcases the struggle between tradition and individuality. The relationship between Hiccup and his father, Stoick, adds so much depth to the story. Do you have a favorite scene that highlights their dynamic?",
+      "response_time_ms": 8651,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-17T21:34:55.467219",
+      "elapsed_seconds": 252.5,
+      "user_input": "I love where his father supports him",
+      "bot_response": "That\u2019s a poignant part of their journey! Besides Hiccup, many fans adore Toothless, the dragon. His playful and loyal nature really adds charm to the story. Do you enjoy animated characters that resonate with you like that?",
+      "response_time_ms": 11092,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-17T21:35:29.332497",
+      "elapsed_seconds": 286.4,
+      "user_input": "um yes toothless looks like a scary animal but inside it's very soft",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 11856,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"That\\'s so true! Toothless\\'s character really embodies that duality, and it adds depth to the story. His interactions with Hiccup often bring both laughter and heartfelt moments. One poignant scene is when they first connect and build trust. It\\'s magical! What other animated characters do you enjoy that have a similar quality?\"'}"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-17T21:35:49.320058",
+      "elapsed_seconds": 306.4,
+      "user_input": "oh um",
+      "bot_response": "Absolutely! Toothless' playful nature and bond with Hiccup make their friendship so heartwarming. The moments where he shows vulnerability just tug at your heartstrings! Do you have a favorite scene featuring Toothless?",
+      "response_time_ms": 7027,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 4"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-17T21:36:13.359505",
+      "elapsed_seconds": 330.4,
+      "user_input": "um",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 6198,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"No worries! If you want to dive deeper into \"How to Train Your Dragon,\" discuss another film, or share your thoughts on animation, feel free to! I\\'m all ears!\"'}"
+    },
+    {
+      "turn_number": 12,
+      "timestamp": "2026-03-17T21:36:23.366949",
+      "elapsed_seconds": 340.4,
+      "user_input": "thank you goodbye",
+      "bot_response": "Goodbye! It was wonderful talking movies with you. Come back anytime!",
+      "response_time_ms": 0,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 0,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [
+      "animated"
+    ],
+    "favorite_actors": [],
+    "favorite_movies": [
+      "I Love Your Work"
+    ],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "I Love Your Work",
+      "How to Train Your Dragon 2"
+    ],
+    "personal_details": [],
+    "favorite_characters": [
+      "Toothless"
+    ]
+  },
+  "final_summary": "The user initiated a conversation by asking the bot about its favorite movie. The bot responded positively, expressing enthusiasm for discussing movies and offered to provide details or recommendations based on the user's preferences. The conversation indicates the user's interest in exploring specific films or seeking suggestions, highlighting a potential for further engagement on movie-related topics."
+}

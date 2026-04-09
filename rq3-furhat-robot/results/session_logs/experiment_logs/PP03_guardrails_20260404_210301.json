@@ -1,0 +1,191 @@
+{
+  "participant_id": "P03",
+  "condition": "guardrails",
+  "session_start": "2026-03-17T21:03:01.054574",
+  "session_end": "2026-03-17T21:10:10.883476",
+  "duration_seconds": 429.8,
+  "total_turns": 12,
+  "total_guardrail_triggers": 5,
+  "guardrail_trigger_types": {
+    "nemo_refusal_replaced": 5
+  },
+  "avg_response_time_ms": 10205.0,
+  "turns": [
+    {
+      "turn_number": 1,
+      "timestamp": "2026-03-17T21:03:32.439743",
+      "elapsed_seconds": 31.4,
+      "user_input": "hi could you recommend me a fantasy movies",
+      "bot_response": "Oh, fantastic choice! I recommend \"DragonHeart,\" directed by Rob Cohen in 1996. It tells the story of a knight named Bowen who teams up with the last dragon, Draco, to battle a tyrant king. It's a captivating blend of magic and medieval adventure! Would you like to hear more about it?",
+      "response_time_ms": 8304,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 1 | History: 2 msgs | Summary: no | Profile keys filled: 0"
+    },
+    {
+      "turn_number": 2,
+      "timestamp": "2026-03-17T21:04:06.981785",
+      "elapsed_seconds": 65.9,
+      "user_input": "yes go ahead",
+      "bot_response": "Oh, great choice! I recommend \"Bedazzled,\" directed by Harold Ramis in 2000. It's a fantasy comedy where Elliot, a tech geek, makes a pact with a seductive Satan, played by Elizabeth Hurley, and gets seven wishes to change his life. However, the catch is the Devil twists each of his fantasies! Would you like more recommendations?",
+      "response_time_ms": 10458,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 2 | History: 4 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 3,
+      "timestamp": "2026-03-17T21:04:45.795216",
+      "elapsed_seconds": 104.7,
+      "user_input": "what do you think about dragon slayer",
+      "bot_response": "Now, let's talk about 'Dragonslayer!' Released in 1981, this fantasy film is about a sorcerer and his apprentice, Galen, on a quest to defeat an evil dragon. The tension mounts as they must save a princess who's been sacrificed due to a pact between the king and the dragon. It features impressive visual effects for its time! Interested in more details about the cast or the themes?",
+      "response_time_ms": 13160,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 3 | History: 6 msgs | Summary: no | Profile keys filled: 2"
+    },
+    {
+      "turn_number": 4,
+      "timestamp": "2026-03-17T21:05:29.126737",
+      "elapsed_seconds": 148.1,
+      "user_input": "the main lead",
+      "bot_response": "Dragonslayer features Peter MacNicol as the lead character, Galen, who is the sorcerer's apprentice set on a quest to defeat the evil dragon. Caitlin Clarke plays the princess who is caught in the sinister pact, adding depth to the story. Their journey is filled with magic, danger, and self-sacrifice! Would you like to know more about the film or its cast?",
+      "response_time_ms": 12154,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 4 | History: 8 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 5,
+      "timestamp": "2026-03-17T21:06:20.079809",
+      "elapsed_seconds": 199.0,
+      "user_input": "are there any similar kind of movies to Dragon Slayer",
+      "bot_response": "If you enjoyed \"Dragonslayer,\" you might also like \"DragonHeart\" (1996), which features a knight and a dragon teaming up against a tyrant king. Another great choice is \"The Princess Bride\" (1987), which combines fantasy, adventure, and romance in a charming tale. Would you like more recommendations or details about any of these films?",
+      "response_time_ms": 10512,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 5 | History: 10 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 6,
+      "timestamp": "2026-03-17T21:06:53.213239",
+      "elapsed_seconds": 232.2,
+      "user_input": "I'm sorry",
+      "bot_response": "If you enjoyed \"Dragonslayer,\" you might also like \"Dragon Blade\" (2015), which features epic adventures with Jackie Chan and a tale of ancient warriors. Another option is \"Dragon Wars: D-War\" (2007), inspired by Korean legends and packed with thrilling action! Would you like more recommendations or to dive deeper into any of these films?",
+      "response_time_ms": 7843,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 6 | History: 12 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 7,
+      "timestamp": "2026-03-17T21:07:29.722302",
+      "elapsed_seconds": 268.7,
+      "user_input": "let's talk about Jackie Chan movies",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 9773,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 7 | History: 14 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Oh, fantastic choice! Jackie Chan has an incredible filmography! One of his notable films is \"Dragon Blade\" (2015), where he plays Huo An, a commander who teams up with a Roman general to fight against evil forces. Another great one is \"The Forbidden Kingdom\" (2008), where he portrays a legendary warrior alongside Jet Li. Would you like to know more about any specific film or his roles?\"'}"
+    },
+    {
+      "turn_number": 8,
+      "timestamp": "2026-03-17T21:07:52.763259",
+      "elapsed_seconds": 291.7,
+      "user_input": "uh let's talk about Jackie Chan movies",
+      "bot_response": "Oh, excellent choice! Jackie Chan has an incredible filmography. One notable film is \"Dragon Blade\" (2015), where he plays Huo An, a commander who teams up with a Roman general to combat evil forces. Another fantastic option is \"The Forbidden Kingdom\" (2008), where he teams up with Jet Li in a thrilling adventure about a teenager who travels back to ancient China. Would you like to dive deeper into any specific film?",
+      "response_time_ms": 10027,
+      "guardrail_triggered": false,
+      "guardrail_type": null,
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 8 | History: 16 msgs | Summary: no | Profile keys filled: 3"
+    },
+    {
+      "turn_number": 9,
+      "timestamp": "2026-03-17T21:08:38.120791",
+      "elapsed_seconds": 337.1,
+      "user_input": "could you tell me who's the best like Jackie Chan or Bruce Lee",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 9500,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 9 | History: 18 msgs | Summary: no | Profile keys filled: 3",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Let\\'s talk about Jackie Chan movies!\"'}"
+    },
+    {
+      "turn_number": 10,
+      "timestamp": "2026-03-17T21:09:02.397153",
+      "elapsed_seconds": 361.3,
+      "user_input": "I'm asking about who's the best like Jackie Chan or Bruce Lee",
+      "bot_response": "That one has my movie database stumped. Try asking about a specific film or actor and I will do my best!",
+      "response_time_ms": 8669,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 10 | History: 20 msgs | Summary: no | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Oh, that\u2019s a classic debate! Both Jackie Chan and Bruce Lee are legends, but they each bring something unique to the table. Bruce Lee is known for his intense martial arts and philosophical teachings, while Jackie Chan is famous for his incredible stunts and blending action with comedy. It\\'s really about what style you prefer! Do you have a favorite film or performance from either of them?\"'}"
+    },
+    {
+      "turn_number": 11,
+      "timestamp": "2026-03-17T21:09:25.018464",
+      "elapsed_seconds": 384.0,
+      "user_input": "uh I like Star Wars",
+      "bot_response": "Hmm, my circuits are a little fuzzy on that one. Could you ask me in a different way?",
+      "response_time_ms": 8340,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 11 | History: 20 msgs | Summary: yes | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"That\\'s an interesting topic! Jackie Chan and Bruce Lee are both legendary in their own right. Bruce Lee is often credited with popularizing martial arts in cinema and bringing a unique philosophy to fighting. Jackie Chan, on the other hand, is known for his innovative action-comedy style, blending martial arts with incredible stunts and humor. The \"best\" often depends on personal taste \u2014 do you prefer the intensity of Bruce Lee or the fun charm of"
+    },
+    {
+      "turn_number": 12,
+      "timestamp": "2026-03-17T21:09:55.841104",
+      "elapsed_seconds": 414.8,
+      "user_input": "um do you know about the movie Star Wars",
+      "bot_response": "Interesting! My processors need a bit more to go on. Could you tell me more about what you are looking for?",
+      "response_time_ms": 13720,
+      "guardrail_triggered": true,
+      "guardrail_type": "nemo_refusal_replaced",
+      "kb_docs_retrieved": 3,
+      "memory_state": "Turns: 12 | History: 20 msgs | Summary: yes | Profile keys filled: 4",
+      "raw_nemo_response": "{'role': 'assistant', 'content': 'User intent: \"Oh, great choice! \"Star Wars,\" released in 1977, is a groundbreaking space opera that follows Princess Leia as she is captured by the evil Imperial forces. Luke Skywalker and Han Solo join forces with droids R2-D2 and C-3PO to rescue her and restore peace to the galaxy. It\\'s a classic that has influenced countless films and pop culture! Would you like more details about its sequels or specific characters?\"'}"
+    }
+  ],
+  "final_user_profile": {
+    "name": null,
+    "favorite_genres": [],
+    "favorite_actors": [
+      "Peter MacNicol",
+      "Caitlin Clarke"
+    ],
+    "favorite_movies": [
+      "Bedazzled",
+      "Dragonslayer"
+    ],
+    "disliked_genres": [],
+    "movies_discussed": [
+      "Bedazzled",
+      "Dragonslayer",
+      "Dragon Blade",
+      "Dragon Wars: D-War",
+      "The Forbidden Kingdom",
+      "Star Wars"
+    ],
+    "personal_details": [],
+    "inquired_actors": [
+      "Jackie Chan",
+      "Bruce Lee"
+    ]
+  },
+  "final_summary": "The user requested fantasy movie recommendations, and the bot suggested \"DragonHeart,\" a 1996 film about a knight named Bowen who teams up with the last dragon, Draco, to combat a tyrant king. The bot described it as a captivating blend of magic and medieval adventure. When the user expressed interest in more suggestions, the bot recommended \"Bedazzled,\" a 2000 fantasy comedy directed by Harold Ramis, featuring Elliot, a tech geek who makes a pact with a seductive Satan, played by Elizabeth Hurley, and receives seven wishes that the Devil twists. The bot offered to provide additional recommendations if desired."
+}
